@@ -34,7 +34,7 @@ GcPdfPrintManager pm = new GcPdfPrintManager();
 pm.Doc = doc;
 pm.PrinterSettings = new PrinterSettings();
 pm.PrinterSettings.PrinterName = "Microsoft Print to PDF";
-pm.OutputRange = new OutputRange(5, 10);
+pm.OutputRange = new OutputRange(1, 3);
 pm.PageScaling = PageScaling.FitToPrintableArea;
 pm.Print();
 
